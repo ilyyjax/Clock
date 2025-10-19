@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Time is Ticking</title>
+
+  <!-- Futuristic / digital-ish font from Google Fonts (no frameworks) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="top-text" aria-hidden="false">
+      <h1>Time is Ticking</h1>
+    </header>
+
+    <section class="clock-wrap" role="region" aria-label="Live digital clock">
+      <div id="clock" class="clock" aria-live="polite">00:00:00</div>
+    </section>
+
+    <!-- bottom-right X logo -->
+    <a class="x-link" href="https://x.com/Time_C0in" target="_blank" rel="noopener noreferrer" aria-label="Open X (Twitter) profile">
+      <!-- simple stylized 'X' SVG - minimalist and crisp -->
+      <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+        <path d="M6 6 L18 18 M18 6 L6 18" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
